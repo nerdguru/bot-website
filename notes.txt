@@ -1,0 +1,27 @@
+- The current site is a single page with very wordy and busy sections that have
+relative links from the nav bar
+
+- More modern web design focuses on minimalism, making it easier for people to
+do what they want to do on a particular site or pages
+
+- For BOT, people primarily come to the site for two tasks:
+  - Buy Tickets
+  - Learn about auditions
+
+- The design goals I started with:
+  - Multiple pages
+  - Remove everything that can be removed without losing function
+  - Adaptive to different screen widths
+  - Buy tickets button above the fold
+
+- Original home page
+  - Too much space above the fold, not enough content
+  - Lack of favicon (minor)
+  - Not clear if web hoster is prohibiting custom pages,
+    but assume they don't for now or we'd move hosters
+
+- Proposed home page
+  - Shorter top nav that moves both logo and social to navbar
+  - Splashy graphic for current show, purchase button above fold for most widths
+  - Box office restrictions below fold on home page instead of on different page
+  - Adaptive to width, clickable phone number on mobile

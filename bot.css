@@ -1,3 +1,22 @@
 body {
   font-family: 'Roboto', sans-serif !important;
 }
+
+/* start of desktop styles */
+
+
+@media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    /* Adding a fixed/percentage min-width could ensure that the image doesn't get too small */
+    .img-fluid {
+      max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+    /* It's possible to hide the image if the screen becomes too small */
+    .img-fluid {
+      max-width: 250px;
+    }
+}
